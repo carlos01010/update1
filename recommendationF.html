@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel = "stylesheet" href = "rf.css">
+
+<title></title>
+</head>
+<body>
+
+    <h1>IMAGINE THIS IS THE HOME PAGE OF DYOSX</h1>
+    <div class = "button">
+    <button id = "open"> Take the quiz </button>
+        </div>
+
+
+        <!--------------CONTENT/ WHAT MATTERS--------------------->
+    <div class = "modal-container" id = "modal-container">
+        <div class = "modal-content">
+            <!--DYOSX LOGO + CART LOGO-->
+            <div class = "top1">
+                <img class = "logo" src = "img/logo.svg" alt = "logo" width = "170" height = "60">
+                <!--<img class = "logo" src = "img/Title Logo.svg" alt = "logo" width = "150" height = "100"> -->
+                <!--<img class = "subLogo" src = "img/beauty with a purpose.svg" alt = "beauty" width = "110" height = "90"> -->
+                <img class = "cartIcon" src = "img/cart.svg" alt = "cart" width = "48" height = "39">
+            </div>
+
+            <!--SCROLL/TRACKER-->
+            <div class = "scroll-container" style = "height:13px;width:960px">
+                    <div class = "scroll" id = "scroll" >  
+                           
+                    </div>
+            </div>
+            <!--FIRST FORM, WILL BE HIDDEN WHEN CONTINUE IS CLICKED-->
+            <div class = "content1" id = "content1">
+                <div class = "question-container">
+                    <p class = "question1"> How would you describe your skin type? </p>
+                </div>
+
+                <!--ANSWER SELECTION-->
+                <div class = "body1">
+                    <div class = "option1" tabindex= "0"> option 1 </div>
+                    <div class = "option2" tabindex= "1"> option 2</div>
+                    <div class = "option3" tabindex= "2"> option 3</div>
+                </div>
+            </div>
+            <!--END OF FIRST FORM-->
+
+            <!--SECOND FORM AFTER CLICKING CONTINUE-->
+
+
+
+            <!--NEXT BUTTON-->
+            <div class = "button-container" id = "button-container">
+                <div class = "nextButton1" id = "nextButton1">
+                    <button id = "continue1"> CONTINUE </button>
+                </div>
+                <!--PREVIOUS BUTTON BUT HIDDEN ON FIRST FORM-->
+                <div class = "prevButton1" id = "prevButton1">
+                    <button id = "previous1"> PREVIOUS </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src = "javachip.js"></script>
+</html>
